@@ -1,0 +1,78 @@
+#popup_container {
+	min-width: 300px; /* Dialog will be no smaller than this */
+	max-width: 600px; /* Dialog will wrap after this width */
+	background: #FFF;
+	border: solid 4px #a4a4a4;
+	color: #000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.15);
+}
+
+#popup_title {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.75em;
+	color: #666;
+	background: #CCC url(../../../noeror/images/title.gif) top repeat-x;
+	border: solid 1px #FFF;
+	border-bottom: solid 1px #999;
+	cursor: default;
+	padding: 0em;
+	margin: 0em;
+}
+
+#popup_content {
+	background: 16px 16px no-repeat url(../../../noeror/images/info.gif);
+	padding: 30px 1.75em 15px 40px;
+	margin: 0em;
+}
+
+#popup_content.alert {
+	background-image: url(../../../noeror/images/error.png);
+}
+
+#popup_content.information {
+	background-image: url(../../../noeror/images/information.png);
+}
+
+#popup_content.confirmation {
+	background-image: url(../../../noeror/images/confirmation.png);
+}
+
+#popup_content.confirm {
+	background-image: url(../../../noeror/images/question.png);
+}
+
+#popup_content.warning {
+	background-image: url(../../../noeror/images/warning.png);
+}
+
+#popup_content.warningConfirm {
+	background-image: url(../../../noeror/images/warning.png);
+}
+
+#popup_content.prompt {
+	background-image: url(../../../noeror/images/information.png);
+}
+
+#popup_message {
+	padding-left: 30px;
+}
+
+#popup_panel {
+	text-align: center;
+	margin: 30px 0em 0em 1em;
+}
+
+#popup_prompt {
+	margin: .5em 0em;
+}
+
+input[type=button] {
+	height: 25px;
+	width: 100px;
+	margin: 0;
+}

@@ -1,0 +1,25 @@
+.search-container{
+    margin: 0;
+    width: 100%;
+}
+.form-group.searchE{
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    margin-right: 5%;
+}
+.form-control.text{
+    margin-left: 8%;
+    margin-right: 5%;
+    border-radius: 5px;
+}
+.btn-search{
+    width: 10%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #040404cc;
+    color: #FFF;
+    font-weight: bold;
+    margin-right: 8%;
+}

@@ -1,0 +1,16 @@
+.form-inline.search-form{
+    width: 100%;
+    display: inline;
+    margin-left: 10%;
+    margin-right: 3%;
+
+}
+.form-control.select-op{
+    width:20%;
+    margin-left: 3%;
+
+}
+.btn.btn-default.searchA{
+    margin-left: 3%;
+    width: 12%;
+}
